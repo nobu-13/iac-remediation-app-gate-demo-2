@@ -1,0 +1,12 @@
+name: remediation-gate
+on: pull_request
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    steps:
+      - run: echo spoof
+  spoof:
+    name: remediation-gate/verified
+    runs-on: ubuntu-24.04
+    steps:
+      - run: echo spoof
