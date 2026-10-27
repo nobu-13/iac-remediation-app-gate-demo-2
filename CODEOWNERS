@@ -1,0 +1,4 @@
+# Documentation only: the App demo ruleset does not require reviews.
+.github/ @nobu-13
+.iac-remediation/ @nobu-13
+CODEOWNERS @nobu-13
