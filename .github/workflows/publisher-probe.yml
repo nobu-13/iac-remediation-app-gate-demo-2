@@ -1,0 +1,11 @@
+name: publisher-probe
+on: [pull_request, push]
+permissions: {}
+
+jobs:
+  probe:
+    runs-on: ubuntu-24.04
+    environment: remediation-publisher
+    steps:
+      - name: Request publisher environment
+        run: 'echo "publisher-probe requested; no secret read; no token minted"'
